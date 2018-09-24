@@ -24,7 +24,7 @@ int main()
   //tell fortune
   lucky = first.length();
  
-  cout<<"your lucky number is "<<lucky<<"."<<endl;
+  cout<<"your lucky number is "<<lucky<<endl;
 
   if(fl=='A'||fl=='a'||fl=='E'||fl=='e'||fl=='I'||fl=='i'||fl=='O'||fl=='o'||fl=='U'||fl=='u')
   {
