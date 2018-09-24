@@ -14,9 +14,10 @@ int main()
   cout<<"Enter first name."<<endl;
   cin>>first;
   cout<<"Enter last name."<<endl;
+  cin>>last;
+  
   char fl = first[0];
   char ll = last[last.length()-1];
-  cin>>last;
   
   cout<<"Welcome, "<<first[0]<<"."<<last[0]<<"., here is your fortune..."<<endl; 
   
@@ -40,6 +41,6 @@ int main()
    cout<<"You have already met your true love."<<endl;
   }
 
-cout<<"Have a nice day."<<endl;
+  cout<<"Have a nice day."<<endl;
   return 0;
 }
